@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:09:35Z
+  collectedAt: 2026-09-11T18:36:45Z
 timeline:
   created: 2011-11-19
   lastCommit: 2020-12-17
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 27119
+  star: 27118
   watcher: 414
-  fork: 1438
+  fork: 1439
   release: 0
   contributor: 215
   pullRequest: 701
@@ -88,7 +88,7 @@ total:
   commit: 2057
 ---
 path: /home/runner/.x-repo/github.com/ggreer/the_silver_searcher
-collectedAt: 2026-09-11T06:09:36Z
+collectedAt: 2026-09-11T18:36:46Z
 loc:
   C:
     code: 3932
