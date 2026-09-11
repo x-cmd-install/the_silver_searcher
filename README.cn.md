@@ -42,7 +42,7 @@ x install the_silver_searcher
 
 ## 流行度
 
-- **Star**: 27,119 · **Fork**: 1,438 · **开放 issue**: 858 · **贡献者**: 215
+- **Star**: 27,118 · **Fork**: 1,439 · **开放 issue**: 858 · **贡献者**: 215
 
 ## 累计统计
 
@@ -85,4 +85,4 @@ the_silver_searcher 的安装元数据由 [x-cmd/install](https://github.com/x-c
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T06:09:43Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T18:36:53Z._

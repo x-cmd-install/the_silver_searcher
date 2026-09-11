@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,119 · **Forks**: 1,438 · **Open issues**: 858 · **Contributors**: 215
+- **Stars**: 27,118 · **Forks**: 1,439 · **Open issues**: 858 · **Contributors**: 215
 
 ## Totals (cumulative)
 
@@ -85,4 +85,4 @@ Install metadata for the_silver_searcher lives in the [x-cmd/install](https://gi
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T06:09:42Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T18:36:52Z._
