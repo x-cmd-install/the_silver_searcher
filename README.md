@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,118 · **Forks**: 1,439 · **Open issues**: 858 · **Contributors**: 215
+- **Stars**: 27,121 · **Forks**: 1,439 · **Open issues**: 858 · **Contributors**: 215
 
 ## Totals (cumulative)
 
@@ -52,29 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 1 | 0 | 1 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 3 | 0 | 2 | 0 |
-| 360d | 2025-09-18 | 0 | 0 | 5 | 0 | 6 | 0 |
-| last720d | 2024-09-23 | 0 | 0 | 6 | 0 | 17 | 0 |
-
-## Distribution status
-
-Reported by **153** distros on [repology.org](https://repology.org/project/the_silver_searcher). **97** are ✅ on the latest upstream release, **9** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.2.0+git20200805` | ignored |
-| Debian 14 | `2.2.0+git20200805` | ignored |
-| Debian 13 | `2.2.0+git20200805` | ignored |
-| Ubuntu 26.04 LTS | `2.2.0+git20200805` | ignored |
-| Ubuntu 24.04 LTS | `2.2.0+git20200805` | ignored |
-| Arch | `2.2.0` | ✅ latest |
-| Homebrew | `2.2.0` | ✅ latest |
-| Fedora rawhide | `2.2.0^2020704.5a1c8d8` | ignored |
-| Void | `2.2.0` | ✅ latest |
-| Alpine edge | `2.2.0` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-09-19 | 0 | 0 | 5 | 0 | 6 | 0 |
+| last720d | 2024-09-24 | 0 | 0 | 6 | 0 | 17 | 0 |
 
 ## Improve this data
 
@@ -85,4 +68,4 @@ Install metadata for the_silver_searcher lives in the [x-cmd/install](https://gi
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:23:34Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:43:50Z._
