@@ -1,13 +1,3 @@
-- repo: slackbuilds
-  srcname: system/the_silver_searcher
-  visiblename: system/the_silver_searcher
-  version: 2.2.0
-  origversion: null
-  status: newest
-  maintainers:
-    - urchlay@slackware.uk
-  categories:
-    - system
 - repo: adelie_current
   subrepo: user
   srcname: the_silver_searcher
@@ -242,6 +232,15 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: chromebrew
+  srcname: ag
+  visiblename: ag
+  version: 2.2.0
+  origversion: null
+  status: newest
+  summary: The Silver Searcher. Very fast search similar to ack or grep. (ag)
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_20
   subrepo: community
   srcname: the_silver_searcher
@@ -255,6 +254,97 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher
+  visiblename: the_silver_searcher
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: A code searching tool similar to ack, with a focus on speed.
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher-bash-completion
+  visiblename: the_silver_searcher-bash-completion
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: Bash completions for the_silver_searcher
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher-doc
+  visiblename: the_silver_searcher-doc
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: A code searching tool similar to ack, with a focus on speed. (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher-zsh-completion
+  visiblename: the_silver_searcher-zsh-completion
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: Zsh completions for the_silver_searcher
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher
+  visiblename: the_silver_searcher
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: A code searching tool similar to ack, with a focus on speed.
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher-bash-completion
+  visiblename: the_silver_searcher-bash-completion
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: Bash completions for the_silver_searcher
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher-doc
+  visiblename: the_silver_searcher-doc
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: A code searching tool similar to ack, with a focus on speed. (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
 - repo: homebrew
   srcname: the_silver_searcher
   visiblename: the_silver_searcher
@@ -262,7 +352,20 @@
   origversion: null
   status: rolling
   summary: Code-search similar to ack
-- repo: alpine_3_21
+- repo: alpine_3_22
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher-zsh-completion
+  visiblename: the_silver_searcher-zsh-completion
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: Zsh completions for the_silver_searcher
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
   subrepo: community
   srcname: the_silver_searcher
   binname: the_silver_searcher
@@ -275,7 +378,7 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_21
+- repo: alpine_3_23
   subrepo: community
   srcname: the_silver_searcher
   binname: the_silver_searcher-bash-completion
@@ -288,7 +391,7 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_21
+- repo: alpine_3_23
   subrepo: community
   srcname: the_silver_searcher
   binname: the_silver_searcher-doc
@@ -301,7 +404,7 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_21
+- repo: alpine_3_23
   subrepo: community
   srcname: the_silver_searcher
   binname: the_silver_searcher-zsh-completion
@@ -314,7 +417,7 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_22
+- repo: alpine_3_24
   subrepo: community
   srcname: the_silver_searcher
   binname: the_silver_searcher
@@ -327,7 +430,7 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_22
+- repo: alpine_3_24
   subrepo: community
   srcname: the_silver_searcher
   binname: the_silver_searcher-bash-completion
@@ -340,7 +443,7 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_22
+- repo: alpine_3_24
   subrepo: community
   srcname: the_silver_searcher
   binname: the_silver_searcher-doc
@@ -349,19 +452,6 @@
   origversion: 2.2.0-r1
   status: newest
   summary: A code searching tool similar to ack, with a focus on speed. (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher-zsh-completion
-  visiblename: the_silver_searcher-zsh-completion
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: Zsh completions for the_silver_searcher
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -379,109 +469,6 @@
     - mizuno-as@ubuntu.com
   categories:
     - misc
-- repo: alpine_3_23
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher
-  visiblename: the_silver_searcher
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: A code searching tool similar to ack, with a focus on speed.
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher-bash-completion
-  visiblename: the_silver_searcher-bash-completion
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: Bash completions for the_silver_searcher
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: cygwin
-  srcname: the_silver_searcher
-  binname: the_silver_searcher
-  visiblename: the_silver_searcher
-  version: 2.2.0
-  origversion: 2.2.0-1
-  status: newest
-  summary: 'Ag: a code searching tool with a focus on speed'
-  maintainers:
-    - marco.atzeri@cygwin
-  categories:
-    - Utils
-- repo: alpine_3_23
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher-doc
-  visiblename: the_silver_searcher-doc
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: A code searching tool similar to ack, with a focus on speed. (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher-zsh-completion
-  visiblename: the_silver_searcher-zsh-completion
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: Zsh completions for the_silver_searcher
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher
-  visiblename: the_silver_searcher
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: A code searching tool similar to ack, with a focus on speed.
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher-bash-completion
-  visiblename: the_silver_searcher-bash-completion
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: Bash completions for the_silver_searcher
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher-doc
-  visiblename: the_silver_searcher-doc
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: A code searching tool similar to ack, with a focus on speed. (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_24
   subrepo: community
   srcname: the_silver_searcher
@@ -614,15 +601,18 @@
     - biancarandazzo@aur
   licenses:
     - Apache
-- repo: chromebrew
-  srcname: ag
-  visiblename: ag
+- repo: cygwin
+  srcname: the_silver_searcher
+  binname: the_silver_searcher
+  visiblename: the_silver_searcher
   version: 2.2.0
-  origversion: null
+  origversion: 2.2.0-1
   status: newest
-  summary: The Silver Searcher. Very fast search similar to ack or grep. (ag)
-  licenses:
-    - Apache-2.0
+  summary: 'Ag: a code searching tool with a focus on speed'
+  maintainers:
+    - marco.atzeri@cygwin
+  categories:
+    - Utils
 - repo: cygwin
   srcname: the_silver_searcher
   binname: the_silver_searcher-debuginfo
@@ -1623,6 +1613,16 @@
     - Apache-2.0
   categories:
     - Utility
+- repo: slackbuilds
+  srcname: system/the_silver_searcher
+  visiblename: system/the_silver_searcher
+  version: 2.2.0
+  origversion: null
+  status: newest
+  maintainers:
+    - urchlay@slackware.uk
+  categories:
+    - system
 - repo: solus
   srcname: silver-searcher
   binname: silver-searcher
@@ -1683,6 +1683,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: extra
+  srcname: silversearcher
+  visiblename: silversearcher
+  version: 2.2.0
+  origversion: 2.2.0-2
+  status: newest
+  summary: A code-searching tool similar to ack, but faster
+  maintainers:
+    - starkos@disroot.org
 - repo: termux
   srcname: silversearcher-ag
   binname: silversearcher-ag
