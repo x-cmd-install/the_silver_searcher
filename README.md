@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,127 · **Forks**: 1,435 · **Open issues**: 860 · **Contributors**: 215
+- **Stars**: 27,126 · **Forks**: 1,435 · **Open issues**: 860 · **Contributors**: 215
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 399 · **Open PRs**: 118 · **Closed issues**: 413 · **Open issues**: 447 · **Commits**: 2057
+- **Releases**: 0 · **Merged PRs**: 399 · **Open PRs**: 117 · **Closed issues**: 413 · **Open issues**: 447 · **Commits**: 2057
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-08-26 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 90d | 2026-07-27 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last180d | 2026-04-28 | 0 | 0 | 2 | 0 | 4 | 0 |
-| 360d | 2025-10-30 | 0 | 0 | 5 | 0 | 7 | 0 |
-| last720d | 2024-11-04 | 0 | 0 | 6 | 0 | 15 | 0 |
+| 30d | 2026-09-26 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-08-27 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-07-28 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last180d | 2026-04-29 | 0 | 0 | 2 | 0 | 4 | 0 |
+| 360d | 2025-10-31 | 0 | 0 | 4 | 0 | 7 | 0 |
+| last720d | 2024-11-05 | 0 | 0 | 5 | 0 | 15 | 0 |
 
 ## Distribution status
 
@@ -85,4 +85,4 @@ Install metadata for the_silver_searcher lives in the [x-cmd/install](https://gi
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:55:13Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:56:57Z._
