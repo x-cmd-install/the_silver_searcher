@@ -42,7 +42,7 @@ x install the_silver_searcher
 
 ## 流行度
 
-- **Star**: 27,126 · **Fork**: 1,435 · **开放 issue**: 860 · **贡献者**: 215
+- **Star**: 27,125 · **Fork**: 1,434 · **开放 issue**: 860 · **贡献者**: 215
 
 ## 累计统计
 
@@ -52,12 +52,12 @@ x install the_silver_searcher
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-02 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 90d | 2026-08-03 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last180d | 2026-05-05 | 0 | 0 | 2 | 0 | 3 | 0 |
-| 360d | 2025-11-06 | 0 | 0 | 4 | 0 | 7 | 0 |
-| last720d | 2024-11-11 | 0 | 0 | 5 | 0 | 15 | 0 |
+| 30d | 2026-10-03 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-03 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-08-04 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last180d | 2026-05-06 | 0 | 0 | 2 | 0 | 3 | 0 |
+| 360d | 2025-11-07 | 0 | 0 | 4 | 0 | 7 | 0 |
+| last720d | 2024-11-12 | 0 | 0 | 5 | 0 | 15 | 0 |
 
 ## 发行版状态
 
@@ -71,7 +71,7 @@ x install the_silver_searcher
 | Ubuntu 26.04 LTS | `2.2.0+git20200805` | ignored |
 | Ubuntu 24.04 LTS | `2.2.0+git20200805` | ignored |
 | Arch | `2.2.0` | ✅ latest |
-| Homebrew | `2.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `2.2.0^2020704.5a1c8d8` | ignored |
 | Void | `2.2.0` | ✅ latest |
 | Alpine edge | `2.2.0` | ✅ latest |
@@ -85,4 +85,4 @@ the_silver_searcher 的安装元数据由 [x-cmd/install](https://github.com/x-c
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261101.yml` · 2026-11-01T07:27:50Z._
+_数据快照: `data/card/261102.yml` · 2026-11-02T07:39:02Z._
