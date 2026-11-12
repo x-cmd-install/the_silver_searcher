@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,126 · **Forks**: 1,433 · **Open issues**: 860 · **Contributors**: 215
+- **Stars**: 27,124 · **Forks**: 1,432 · **Open issues**: 860 · **Contributors**: 215
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-12 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 90d | 2026-08-13 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last180d | 2026-05-15 | 0 | 0 | 2 | 0 | 3 | 0 |
-| 360d | 2025-11-16 | 0 | 0 | 4 | 0 | 6 | 0 |
-| last720d | 2024-11-21 | 0 | 0 | 5 | 0 | 15 | 0 |
+| 30d | 2026-10-13 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-13 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-08-14 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last180d | 2026-05-16 | 0 | 0 | 2 | 0 | 3 | 0 |
+| 360d | 2025-11-17 | 0 | 0 | 4 | 0 | 5 | 0 |
+| last720d | 2024-11-22 | 0 | 0 | 5 | 0 | 14 | 0 |
 
 ## Distribution status
 
-Reported by **151** distros on [repology.org](https://repology.org/project/the_silver_searcher). **95** are ✅ on the latest upstream release, **9** are ⚠️ on an older version.
+Reported by **150** distros on [repology.org](https://repology.org/project/the_silver_searcher). **95** are ✅ on the latest upstream release, **8** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,7 +71,7 @@ Reported by **151** distros on [repology.org](https://repology.org/project/the_s
 | Ubuntu 26.04 LTS | `2.2.0+git20200805` | ignored |
 | Ubuntu 24.04 LTS | `2.2.0+git20200805` | ignored |
 | Arch | `2.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `2.2.0` | ✅ latest |
 | Fedora rawhide | `2.2.0^2020704.5a1c8d8` | ignored |
 | Void | `2.2.0` | ✅ latest |
 | Alpine edge | `2.2.0` | ✅ latest |
@@ -85,4 +85,4 @@ Install metadata for the_silver_searcher lives in the [x-cmd/install](https://gi
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:23:42Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:59:09Z._
