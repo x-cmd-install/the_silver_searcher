@@ -1,16 +1,16 @@
-- repo: pld
-  srcname: the_silver_searcher
-  visiblename: the_silver_searcher
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: silversearcher-ag
+  binnames:
+    - silversearcher-ag
+  visiblename: silversearcher-ag
   version: 2.2.0
-  origversion: 2.2.0-2
+  origversion: 2.2.0-1
   status: newest
-- repo: homebrew
-  srcname: the_silver_searcher
-  visiblename: the_silver_searcher
-  version: 2.2.0
-  origversion: null
-  status: newest
-  summary: Code-search similar to ack
+  maintainers:
+    - mizuno-as@ubuntu.com
+  categories:
+    - utils
 - repo: adelie_current
   subrepo: user
   srcname: the_silver_searcher
@@ -53,32 +53,6 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: the_silver_searcher
-  binname: the_silver_searcher-doc
-  visiblename: the_silver_searcher-doc
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: A code searching tool similar to ack, with a focus on speed. (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: the_silver_searcher
-  binname: the_silver_searcher
-  visiblename: the_silver_searcher
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: A code searching tool similar to ack, with a focus on speed.
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: the_silver_searcher
   binname: the_silver_searcher-bash-completion
   visiblename: the_silver_searcher-bash-completion
   version: 2.2.0
@@ -98,6 +72,32 @@
   origversion: 2.2.0-r1
   status: newest
   summary: Zsh completions for the_silver_searcher
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher-doc
+  visiblename: the_silver_searcher-doc
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: A code searching tool similar to ack, with a focus on speed. (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: the_silver_searcher
+  binname: the_silver_searcher
+  visiblename: the_silver_searcher
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: A code searching tool similar to ack, with a focus on speed.
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -230,17 +230,6 @@
   summary: Bash completions for the_silver_searcher
   maintainers:
     - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: the_silver_searcher
-  binname: the_silver_searcher
-  visiblename: the_silver_searcher
-  version: 2.2.0
-  origversion: 2.2.0-4
-  status: newest
-  summary: Code searching tool similar to Ack, but faster
   licenses:
     - Apache-2.0
 - repo: alpine_3_20
@@ -347,13 +336,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: distri
-  srcname: silversearcher
-  binname: silversearcher
-  visiblename: silversearcher
-  version: 2.2.0
-  origversion: 2.2.0-7
-  status: newest
 - repo: alpine_3_22
   subrepo: community
   srcname: the_silver_searcher
@@ -458,13 +440,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: homebrew
-  srcname: the_silver_searcher
-  visiblename: the_silver_searcher
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Code-search similar to ack
 - repo: alpine_3_24
   subrepo: community
   srcname: the_silver_searcher
@@ -559,6 +534,18 @@
     - Apache-2.0
   categories:
     - Development/Tools
+- repo: exherbo
+  subrepo: mawww
+  srcname: dev-util/the_silver_searcher
+  visiblename: dev-util/the_silver_searcher
+  version: 2.2.0
+  origversion: null
+  status: newest
+  summary: A code-searching tool similar to ack, but faster
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - dev-util
 - repo: altsisyphus
   srcname: silver-searcher
   binnames:
@@ -587,19 +574,17 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: kali_rolling
-  subrepo: main
-  srcname: silversearcher-ag
-  binnames:
-    - silversearcher-ag
-  visiblename: silversearcher-ag
-  version: 2.2.0+git20200805
-  origversion: 2.2.0+git20200805-1.2
-  status: ignored
-  maintainers:
-    - mizuno-as@ubuntu.com
-  categories:
-    - misc
+- repo: arch
+  subrepo: extra
+  srcname: the_silver_searcher
+  binname: the_silver_searcher
+  visiblename: the_silver_searcher
+  version: 2.2.0
+  origversion: 2.2.0-4
+  status: newest
+  summary: Code searching tool similar to Ack, but faster
+  licenses:
+    - Apache-2.0
 - repo: aur
   srcname: silver-searcher-git
   binname: silver-searcher-git
@@ -760,6 +745,13 @@
     - mizuno-as@ubuntu.com
   categories:
     - misc
+- repo: distri
+  srcname: silversearcher
+  binname: silversearcher
+  visiblename: silversearcher
+  version: 2.2.0
+  origversion: 2.2.0-7
+  status: newest
 - repo: epel_7
   srcname: the_silver_searcher
   visiblename: the_silver_searcher
@@ -797,18 +789,6 @@
     - ASL 2.0 and BSD
   categories:
     - Unspecified
-- repo: exherbo
-  subrepo: mawww
-  srcname: dev-util/the_silver_searcher
-  visiblename: dev-util/the_silver_searcher
-  version: 2.2.0
-  origversion: null
-  status: newest
-  summary: A code-searching tool similar to ack, but faster
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - dev-util
 - repo: exherbo
   subrepo: mawww
   srcname: dev-util/the_silver_searcher
@@ -923,6 +903,20 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: the_silver_searcher
+  binnames:
+    - the_silver_searcher
+  visiblename: the_silver_searcher
+  version: 2.2.0^2020704.5a1c8d8
+  origversion: 2.2.0^2020704.5a1c8d8-16.fc45
+  status: ignored
+  summary: Super-fast text searching tool (ag)
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: the_silver_searcher
@@ -987,6 +981,39 @@
   status: newest
   categories:
     - sys-apps
+- repo: homebrew
+  srcname: the_silver_searcher
+  visiblename: the_silver_searcher
+  version: 2.2.0
+  origversion: null
+  status: newest
+  summary: Code-search similar to ack
+- repo: homebrew
+  srcname: the_silver_searcher
+  visiblename: the_silver_searcher
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Code-search similar to ack
+- repo: kali_rolling
+  subrepo: main
+  srcname: silversearcher-ag
+  binnames:
+    - silversearcher-ag
+  visiblename: silversearcher-ag
+  version: 2.2.0+git20200805
+  origversion: 2.2.0+git20200805-1.2
+  status: ignored
+  maintainers:
+    - mizuno-as@ubuntu.com
+  categories:
+    - misc
+- repo: pld
+  srcname: the_silver_searcher
+  visiblename: the_silver_searcher
+  version: 2.2.0
+  origversion: 2.2.0-2
+  status: newest
 - repo: liguros_stable
   srcname: sys-apps/the_silver_searcher
   visiblename: sys-apps/the_silver_searcher
@@ -1421,19 +1448,6 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
-  srcname: silversearcher-ag
-  binnames:
-    - silversearcher-ag
-  visiblename: silversearcher-ag
-  version: 2.2.0+git20200805
-  origversion: 2.2.0+git20200805-1.2
-  status: ignored
-  maintainers:
-    - mizuno-as@ubuntu.com
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: silversearcher-ag
   binnames:
@@ -1446,6 +1460,19 @@
     - mizuno-as@ubuntu.com
   categories:
     - utils
+- repo: parrot
+  subrepo: parrot/main
+  srcname: silversearcher-ag
+  binnames:
+    - silversearcher-ag
+  visiblename: silversearcher-ag
+  version: 2.2.0+git20200805
+  origversion: 2.2.0+git20200805-1.2
+  status: ignored
+  maintainers:
+    - mizuno-as@ubuntu.com
+  categories:
+    - misc
 - repo: pclinuxos
   srcname: the_silver_searcher
   visiblename: the_silver_searcher
@@ -1491,19 +1518,6 @@
     - leot@netbsd.org
   categories:
     - textproc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: silversearcher-ag
-  binnames:
-    - silversearcher-ag
-  visiblename: silversearcher-ag
-  version: 2.2.0
-  origversion: 2.2.0-1
-  status: newest
-  maintainers:
-    - mizuno-as@ubuntu.com
-  categories:
-    - utils
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: silversearcher-ag
