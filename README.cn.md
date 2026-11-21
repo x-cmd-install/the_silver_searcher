@@ -42,7 +42,7 @@ x install the_silver_searcher
 
 ## 流行度
 
-- **Star**: 27,129 · **Fork**: 1,433 · **开放 issue**: 860 · **贡献者**: 215
+- **Star**: 27,129 · **Fork**: 1,432 · **开放 issue**: 860 · **贡献者**: 215
 
 ## 累计统计
 
@@ -52,16 +52,16 @@ x install the_silver_searcher
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-21 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 90d | 2026-08-22 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last180d | 2026-05-24 | 0 | 0 | 2 | 0 | 3 | 0 |
-| 360d | 2025-11-25 | 0 | 0 | 4 | 0 | 5 | 0 |
-| last720d | 2024-11-30 | 0 | 0 | 5 | 0 | 14 | 0 |
+| 30d | 2026-10-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-22 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-08-23 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last180d | 2026-05-25 | 0 | 0 | 2 | 0 | 3 | 0 |
+| 360d | 2025-11-26 | 0 | 0 | 4 | 0 | 5 | 0 |
+| last720d | 2024-12-01 | 0 | 0 | 5 | 0 | 14 | 0 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/the_silver_searcher) 上共有 **151** 个发行版报告此项目。**95** 个 ✅ 已是最新上游版本，**8** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/the_silver_searcher) 上共有 **150** 个发行版报告此项目。**94** 个 ✅ 已是最新上游版本，**8** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -71,7 +71,7 @@ x install the_silver_searcher
 | Ubuntu 26.04 LTS | `2.2.0+git20200805` | ignored |
 | Ubuntu 24.04 LTS | `2.2.0+git20200805` | ignored |
 | Arch | `2.2.0` | ✅ latest |
-| Homebrew | `2.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `2.2.0^2020704.5a1c8d8` | ignored |
 | Void | `2.2.0` | ✅ latest |
 | Alpine edge | `2.2.0` | ✅ latest |
@@ -85,4 +85,4 @@ the_silver_searcher 的安装元数据由 [x-cmd/install](https://github.com/x-c
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261120.yml` · 2026-11-20T08:26:20Z._
+_数据快照: `data/card/261121.yml` · 2026-11-21T09:05:56Z._
