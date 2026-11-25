@@ -42,39 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,126 · **Forks**: 1,432 · **Open issues**: 860 · **Contributors**: 215
+- **Stars**: 27,125 · **Forks**: 1,433 · **Open issues**: 860 · **Contributors**: 215
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 399 · **Open PRs**: 117 · **Closed issues**: 413 · **Open issues**: 447 · **Commits**: 2057
+- **Releases**: 0 · **Merged PRs**: 399 · **Open PRs**: 118 · **Closed issues**: 413 · **Open issues**: 447 · **Commits**: 2057
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 2 | 0 | 3 | 0 |
-| 360d | 2025-11-29 | 0 | 0 | 4 | 0 | 5 | 0 |
-| last720d | 2024-12-04 | 0 | 0 | 5 | 0 | 14 | 0 |
-
-## Distribution status
-
-Reported by **150** distros on [repology.org](https://repology.org/project/the_silver_searcher). **94** are ✅ on the latest upstream release, **8** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.2.0+git20200805` | ignored |
-| Debian 14 | `2.2.0+git20200805` | ignored |
-| Debian 13 | `2.2.0+git20200805` | ignored |
-| Ubuntu 26.04 LTS | `2.2.0+git20200805` | ignored |
-| Ubuntu 24.04 LTS | `2.2.0+git20200805` | ignored |
-| Arch | `2.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `2.2.0^2020704.5a1c8d8` | ignored |
-| Void | `2.2.0` | ✅ latest |
-| Alpine edge | `2.2.0` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 1 | 0 | 2 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 1 | 0 | 2 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 3 | 0 | 3 | 0 |
+| 360d | 2025-11-30 | 0 | 0 | 5 | 0 | 5 | 0 |
+| last720d | 2024-12-05 | 0 | 0 | 6 | 0 | 14 | 0 |
 
 ## Improve this data
 
@@ -85,4 +68,4 @@ Install metadata for the_silver_searcher lives in the [x-cmd/install](https://gi
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:54:21Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:55:11Z._
